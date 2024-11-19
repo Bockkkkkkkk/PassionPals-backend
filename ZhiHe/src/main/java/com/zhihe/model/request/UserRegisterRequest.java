@@ -29,7 +29,7 @@ public class UserRegisterRequest implements Serializable {
     private String checkPassword;
 
     /**
-     * 星球编号
+     * 编号
      */
     private String planetCode;
 }
