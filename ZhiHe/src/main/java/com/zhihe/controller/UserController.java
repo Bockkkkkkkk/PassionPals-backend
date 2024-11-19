@@ -23,15 +23,6 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-/**
- * ClassName:UserController
- * Package:com.zhihe.controller
- * Description:
- *
- * @Author: Bock
- * @Create:2024/2/2516:52
- * @Version 1.0
- */
 @RestController
 @RequestMapping("/user")
 @CrossOrigin(origins = {"http://localhost:80","http://localhost:3000"})

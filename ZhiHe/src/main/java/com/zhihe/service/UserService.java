@@ -7,11 +7,6 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
-/**
-* @author 86184
-* @description 针对表【user(用户)】的数据库操作Service
-* @createDate 2024-02-19 12:37:54
-*/
 public interface UserService extends IService<User> {
 
     /**

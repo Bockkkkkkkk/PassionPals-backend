@@ -34,7 +34,7 @@ public class InsertUsersTest {
             User user = new User();
             user.setUsername("假用户");
             user.setUserAccount("fakeuser");
-            user.setAvatarUrl("https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/logo.png");
+            user.setAvatarUrl("https://636f-123-8grj8px727565176-1256524210.tcb.qcloud.la/img/logo.png");
             user.setGender(0);
             user.setUserPassword("12345678");
             user.setPhone("123");
@@ -69,7 +69,7 @@ public class InsertUsersTest {
                 User user = new User();
                 user.setUsername("假用户");
                 user.setUserAccount("fakeuser");
-                user.setAvatarUrl("https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/logo.png");
+                user.setAvatarUrl("https://636f-123-8grj8px727565176-1256524210.tcb.qcloud.la/img/logo.png");
                 user.setGender(0);
                 user.setUserPassword("12345678");
                 user.setPhone("123");
@@ -99,13 +99,16 @@ public class InsertUsersTest {
     public void testGetRandomTags(){
         for (int i = 0; i < 10; i++) {
             System.out.println(getRandomTags());
-
         }
     }
 
     private String getRandomTags() {
 
-        String[] tags=new String[]{"男","女","Java","C++","Go", "考研","春招","秋招","社招","考公","蓝桥杯","转行","跳槽" ,"初级","中级","高级","王者","小学","初中","高中","大一","大二","大三","大四","学生","待业","已就业","研一","研二","研三","乐观","有点丧","一般","单身","已婚","有对象"};
+        String[] tags=new String[]{
+                "男","女","Java","C++","Go", "考研","春招","秋招","社招",
+                "考公","蓝桥杯","转行","跳槽" ,"初级","中级","高级","王者","小学","初中","高中",
+                "大一","大二","大三","大四","学生","待业","已就业","研一","研二","研三","乐观",
+                "有点丧","一般","单身","已婚","有对象"};
 
         Random random = new Random();
         int tagNum = random.nextInt(tags.length);

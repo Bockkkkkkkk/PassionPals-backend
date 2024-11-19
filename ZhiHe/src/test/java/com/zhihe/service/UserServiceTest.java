@@ -43,10 +43,6 @@ class UserServiceTest {
 
         Assert.isTrue(save,"插入失败");
 
-
-
-
-
     }
 
 }
