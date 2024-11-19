@@ -204,7 +204,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
         }
         // 1. 先查询所有用户
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();
-        //TODO 不能返回所有的符合条件的用户，前端显示太慢，做分页在内存中需要自己写分页的逻辑，使用sql查询太慢
         queryWrapper.le("id",24000);
         List<User> userList = userMapper.selectList(queryWrapper);
         Gson gson = new Gson();

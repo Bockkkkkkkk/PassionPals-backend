@@ -121,7 +121,6 @@ public class TeamController {
         return ResultUtils.success(team);
     }
 
-    // todo 查询分页
     @GetMapping("/list/page")
     public BaseResponse<Page<Team>> listTeamsByPage(TeamQuery teamQuery) {
         if (teamQuery == null) {

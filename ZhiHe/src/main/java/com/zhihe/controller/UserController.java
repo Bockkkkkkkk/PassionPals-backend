@@ -158,7 +158,6 @@ public class UserController {
         return ResultUtils.success(result);
     }
 
-    // todo 推荐多个，未实现
     @GetMapping("/recommend")
     public BaseResponse<Page<User>> recommendUsers(long pageSize, long pageNum, HttpServletRequest request) {
         User loginUser = userService.getLoginUser(request);
