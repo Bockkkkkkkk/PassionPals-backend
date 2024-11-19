@@ -4,7 +4,7 @@ spring:
   # DataSource Config
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://bj-cynosdbmysql-grp-lqdvuvo8.sql.tencentcdb.com:26167/yupao
+    url: jdbc:mysql://bj-cynosdbmysql-grp-lqdvuvo8.sql.tencentcdb.com:26167/zhihe
     username: root
     password: Yangyang0807
   # session 失效时间

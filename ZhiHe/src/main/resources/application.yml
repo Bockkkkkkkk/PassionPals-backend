@@ -5,7 +5,7 @@ spring:
     name: zhihe
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/yupao
+    url: jdbc:mysql://localhost:3306/zhihe
     username: root
     password: 1234
   #session 失效时长 与 存放位置配置
